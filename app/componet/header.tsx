@@ -24,6 +24,7 @@ const Header = () => {
   
   const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "/contact", name: "Contact" }]
   return (
+
     <header className="w-full py-12 px-6 md:px-24 flex flex-col h-30">
       <div className='flex flex-col lg:hidden'>
         {/* Assuming Button and Nav components are defined elsewhere */}
@@ -48,9 +49,11 @@ const Header = () => {
             ))
           }
         </ul>
-        <button>
-          
-        </button>
+        <Link href={"/Huang_David.pdf"} target="_blank">
+          <button className='m-6 w-32 h-12 text-white border border-white rounded hover:bg-white hover:text-black'>
+              Resume
+            </button>
+          </Link>
       </div>
     </header>
   );

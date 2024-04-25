@@ -22,6 +22,11 @@ export default function Home() {
           <hr className="mx-auto my-4 border-gray-300"/>
           <h1 className='text-md md:text-xl lg:text-2xl xl:text-3xl pb-8'>Senior At Northeastern University Pursing A Career as Fullstack Developer</h1>
           <h1 className='text-md md:text-md lg:text-lg xl:text-xl'>More in backend development, that&apos;s why this frontend design isn&apos;t as good!</h1>
+          <Link href={"https://www.linkedin.com/in/zhengda-huang/"} target="_blank">
+          <button className='m-6 w-48 h-12 text-white border border-white rounded hover:bg-white hover:text-black'>
+              Connect With Me
+            </button>
+          </Link>
         </div>
       </section>
       <section id="home" className='flex flex-col items-center py-8'>
