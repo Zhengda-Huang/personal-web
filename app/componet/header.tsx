@@ -22,23 +22,32 @@ const Header = () => {
     }
   };
   
-  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "/contact", name: "Contact" }]
+  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "#contact", name: "Contact" }, { href: "/gallery", name: "Pictures" }]
   return (
 
-    <header className="w-full py-12 px-6 md:px-24 flex flex-col h-30">
+    <header className="w-full py-12 px-6 md:px-24 flex flex-row h-30 items-center justify-between">
+      <div>
+        <Link href="/">
+          <Image
+            src='/zlogo.png'
+            width={50}
+            height={50}
+            alt="logo">
+          </Image>
+        </Link>
+      </div>
       <div className='flex flex-col lg:hidden'>
-        {/* Assuming Button and Nav components are defined elsewhere */}
         <Button isOpen={isOpen} handleClick={handleClick} />
         <Nav isOpen={isOpen} handleClick={handleClick} />
       </div>
-      <div className='hidden lg:flex justify-center items-center'>
+      <div className='hidden lg:flex justify-center items-center me-7'>
         <ul className='flex items-center text-xl lg:text-2xl overflow-hidden'>
           {
             links.map((linkItem, index) => (
               <li key={index} className='w-full md:w-40 text-center mb-2 md:mb-0'>
               {linkItem.href.startsWith("#") ? (
-                  <Link   className="text-white b hover:border-white " onClick={(event) => handleSmoothScroll(event, linkItem.href.substring(1))} href={linkItem.href}>
-                    <span className="hover:text-black border-white">{linkItem.name}</span>                
+                  <Link className="text-white b hover:border-white " onClick={(event) => handleSmoothScroll(event, linkItem.href.substring(1))} href={linkItem.href}>
+                    <span>{linkItem.name}</span>                
                     </Link>
               ) : (
                 <Link href={linkItem.href}>

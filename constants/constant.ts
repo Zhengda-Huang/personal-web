@@ -44,27 +44,31 @@ export const skills = [
   export const projects = [
     {
       title: 'Unique Nail Spa Website',
-      description: 'A website for Unique Nail Spa featuring their services, pricing, and contact information.',
+      description: 'Discover the essence of luxury nail care with our project, meticulously crafted using Next.js, React, and Tailwind CSS. Seamlessly blending style and functionality, our platform caters to over 200 monthly visitors seeking premium nail services. Dive into a world of elegance and convenience as you explore our curated selection of manicures and nail art designs. Elevate your nail salon experience today with Unique Nail Salon.',
       imageUrl: '/unique.jpeg',
       projectLink: 'https://www.uniquenailspas.com/',
+      github: 'https://github.com/Zhengda-Huang/unique-nail-spa'
     },
     {
       title: 'Casino Game Project',
-      description: 'A casino game project developed by Spring 2024 CS4530 Team 312.',
+      description: 'Experience the thrill of a fully immersive casino experience with the latest addition to the Coveny Town project: an exhilarating casino feature developed by the Spring 2024 CS4530 Team 312. Dive into the excitement with classic favorites like blackjack and roulette, all seamlessly integrated into the platform. With a consistent currency system, indulge in endless entertainment as you try your luck and test your skills against others. Join us now and elevate your gaming experience to new heights!',
       imageUrl: '/casino.png',
       projectLink: 'https://spring24-project-team-312-frontend.onrender.com/',
+      github: 'https://github.com/neu-cs4530/spring24-project-team-312'
     },
     {
-      title: 'Movie Recommendation System',
-      description: 'A movie recommendation system project developed for CS4530.',
+      title: 'Popcorn Review',
+      description: "Unveil the movie magic with our CS4530 project: a sleek movie review platform. Built with Node.js, React, Bootstrap, and MongoDB, it's a movie buff's dream. Sign up, follow movies, and share reviews effortlessly. Elevate your movie experience today!",
       imageUrl: '/movie.jpeg',
       projectLink: 'https://main--whimsical-brioche-e48fea.netlify.app/?#/home',
+      github: 'https://github.com/eoinFlynn-NU/WebdevProject'
     },
     {
-      title: 'Movie Recommendation System',
-      description: 'A movie recommendation system project developed for CS4530.',
+      title: 'Our Receipes App',
+      description: "Delve into culinary delights with our Android recipe app crafted in Kotlin. Seamlessly fetching data from external sources via API requests, it enables users to sign up, log in, and explore recipes from across the globe. Embark on a culinary journey like never before!",
       imageUrl: '/food_app.jpeg',
       projectLink: 'https://github.com/Zhengda-Huang/Mobile-Dev-MyRecipes',
+      github: 'https://github.com/Zhengda-Huang/Mobile-Dev-MyRecipes'
     },  ];
 
     export const contacts = [

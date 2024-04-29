@@ -1,0 +1,21 @@
+.jumping-image {
+    animation: jump 2s infinite;
+    border-radius: 100%;
+  }
+  
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+  }
+}
+
+.connect-button{
+  border-radius: 10px;
+  border-width: 2px;
+}
