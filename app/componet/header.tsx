@@ -22,7 +22,7 @@ const Header = () => {
     }
   };
   
-  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "#contact", name: "Contact" }, { href: "/gallery", name: "Gallery" }]
+  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "#contact", name: "Contact" }, { href: "/gallery", name: "Pictures" }]
   return (
 
     <header className="w-full py-12 px-6 md:px-24 flex flex-row h-30 items-center justify-between">
@@ -41,7 +41,7 @@ const Header = () => {
         <Nav isOpen={isOpen} handleClick={handleClick} />
       </div>
       <div className='hidden lg:flex justify-center items-center me-7'>
-        <ul className='flex items-center text-xl lg:text-2xl overflow-hidden'>
+        <ul className='flex items-center text-base lg:text-xl overflow-hidden'>
           {
             links.map((linkItem, index) => (
               <li key={index} className='w-full md:w-40 text-center mb-2 md:mb-0'>

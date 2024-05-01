@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import { Header } from "./componet";
-
+import Image from "next/image";
 const raleway = Raleway({ subsets: ["latin"] }); 
 
 export const metadata: Metadata = {
