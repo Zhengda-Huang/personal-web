@@ -1,45 +1,90 @@
 export const skills = [
-    {
-      imageUrl: '/icons/api.png',
-      title: 'Data Structures & Algorithms',
-      description: 'Crafting efficient solutions, maintaining clean, scalable code, and systematically solving complex problems. These skills drive my contributions to robust adasdsd',
-    },
-    {
-      imageUrl: '/icons/programming.png',
-      title: 'React.js',
-      description: 'Building dynamic and responsive user interfaces using React.js. Proficient in component-based architecture, state management, and client-side routing.',
-    },
-    {
-      imageUrl: '/icons/api.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-    {
-      imageUrl: '/icons/algorithm.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-    {
-      imageUrl: '/icons/programming.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-    {
-      imageUrl: '/icons/api.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-    {
-      imageUrl: '/icons/algorithm.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-    {
-      imageUrl: '/icons/programming.png',
-      title: 'Node.js',
-      description: 'Developing scalable server-side applications using Node.js. Proficient in asynchronous programming, Express.js, and working with databases.',
-    },
-  ];
+  {
+    icon: 'fas fa-code',
+    title: 'Backend Development',
+    description: 'Proficiency in building server-side applications, handling databases, and designing APIs. This involves using languages like Node.js, Java, and frameworks like Spring Boot to create robust and scalable backend systems.',
+    proficiency: [
+      { skill: 'Node.js', proficiency: 'Advanced' },
+      { skill: 'Java', proficiency: 'Advanced' },
+      { skill: 'TypeScript', proficiency: 'Advanced' },
+      { skill: 'Spring Boot', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-database',
+    title: 'Database Management',
+    description: 'Ability to design, implement, and maintain databases efficiently. Skills include working with SQL databases like PostgreSQL, Firebase, and MongoDB, performing CRUD operations, optimizing queries, and ensuring data integrity.',
+    proficiency: [
+      { skill: 'SQL', proficiency: 'Advanced' },
+      { skill: 'PostgreSQL', proficiency: 'Advanced' },
+      { skill: 'Firebase', proficiency: 'Intermediate' },
+      { skill: 'MongoDB', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-laptop-code',
+    title: 'Web Development',
+    description: 'Expertise in creating dynamic and responsive web applications. This encompasses knowledge of frontend technologies such as React, Next.js, HTML, CSS, and JavaScript to build user-friendly interfaces and ensure seamless user experiences across devices.',
+    proficiency: [
+      { skill: 'JavaScript', proficiency: 'Advanced' },
+      { skill: 'Node.js', proficiency: 'Advanced' },
+      { skill: 'React.js', proficiency: 'Advanced' },
+      { skill: 'Next.js', proficiency: 'Advanced' }
+
+    ]
+  },
+  {
+    icon: 'fas fa-cloud',
+    title: 'Cloud Computing',
+    description: 'Proficiency in deploying and managing applications on cloud platforms like Google Cloud Platform (GCP). Skills include using services like Kubernetes and Docker for containerization, ensuring scalability, reliability, and security of applications.',
+    proficiency: [
+      { skill: 'Google Cloud Platform (GCP)', proficiency: 'Intermediate' },
+      { skill: 'Kubernetes', proficiency: 'Intermediate' },
+      { skill: 'Docker', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-code-branch',
+    title: 'API Development',
+    description: 'Experience in designing and implementing RESTful APIs to facilitate communication between different software systems. This involves defining endpoints, handling authentication, and ensuring data exchange in a standardized and efficient manner.',
+    proficiency: [
+      { skill: 'RESTful APIs', proficiency: 'Advanced' },
+      { skill: 'Endpoint Definition', proficiency: 'Intermediate' },
+      { skill: 'Authentication', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-project-diagram',
+    title: 'Software Architecture',
+    description: 'Understanding of software design principles and patterns to create scalable, maintainable, and modular systems. This includes knowledge of microservices architecture, SOLID principles, and design patterns like MVC (Model-View-Controller).',
+    proficiency: [
+      { skill: 'Microservices Architecture', proficiency: 'Intermediate' },
+      { skill: 'SOLID Principles', proficiency: 'Intermediate' },
+      { skill: 'MVC (Model-View-Controller)', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-code-branch',
+    title: 'Version Control',
+    description: 'Proficiency in using version control systems like Git for managing codebase changes collaboratively. Skills include branching, merging, resolving conflicts, and maintaining a clean and organized code repository.',
+    proficiency: [
+      { skill: 'Git', proficiency: 'Advanced' },
+      { skill: 'Branching and Merging', proficiency: 'Intermediate' },
+      { skill: 'Conflict Resolution', proficiency: 'Intermediate' }
+    ]
+  },
+  {
+    icon: 'fas fa-tasks',
+    title: 'Agile Methodologies',
+    description: 'Familiar with agile methodologies like Scrum and Kanban. Participates in iterative development cycles, including sprint planning, daily stand-ups, and retrospective meetings. Delivers high-quality software efficiently and adapts to changing requirements.',
+    proficiency: [
+      { skill: 'Scrum', proficiency: 'Intermediate' },
+      { skill: 'Kanban', proficiency: 'Intermediate' }
+    ]
+  }  
+];
+
+
 
   export const projects = [
     {

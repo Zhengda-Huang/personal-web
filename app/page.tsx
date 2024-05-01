@@ -29,7 +29,7 @@ export default function Home() {
         height={200}
         alt="instagram logo"
       />
-        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-150%)' }}>
+        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen px-2 md:px-0' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-150%)' }}>
           <h1 className='text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>Hi, &apos;I&apos;m Zhengda&quot;David&quot; Huang</h1>
           <hr className="mx-auto my-4 border-gray-300"/>
           <h1 className='text-md md:text-xl lg:text-2xl xl:text-3xl pb-8'>Senior At Northeastern University Pursing A Career as Fullstack Developer</h1>
@@ -41,13 +41,13 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section id="home" className='flex flex-col items-center py-8 h-screen'>
+      <section id="home" className='flex flex-col items-center py-8 h-auto'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-12'>About me</h1>
         <p className='w-full md:w-1/2 text-base md:text-base lg:text-lg xl:text-xl text-center'>
           My name is Zhengda “David” Huang, I’m currently a senior at Northeastern University pursuing a degree in Computer Science and Business Administration. I have co-oped at two phenomenal companies, Zipcar and Tram Global Inc, as a Backend Software Engineer. The experience has truly helped me develop an interest in problem-solving and software development. When I’m not working or studying, I enjoy skateboarding, mixed martial arts, reading a book, or enjoying a movie.
         </p>
-        <div className='w-full flex flex-row flex-wrap mt-12 items-center justify-center'>
-          <div className='h-auto w-1/4 flex flex-col justify-center items-center border rounded overflow-hidden cursor-pointer bg-gray-300 text-black md:me-6 p-8'>
+        <div className='w-full flex flex-row flex-wrap mt-12 items-center justify-center px-6'>
+          <div className='h-auto  w-full md:w-1/4 flex flex-col justify-center items-center border rounded overflow-hidden cursor-pointer bg-gray-300 text-black md:me-6 p-8'>
               <Link href={'https://tram.global/'} target="_blank"><h1 className='text-2xl underline'>Tram Global Inc</h1></Link>
               <h1>Backend Software Engineer Co-op</h1>
               <ul className='text-black list-disc pl-4'>
@@ -57,7 +57,7 @@ export default function Home() {
                 <li className="py-2">Developed SaaS admin portal enabling businesses to monitor daily travel metrics using React, Tailwind, and Next.js</li>
             </ul>
           </div>
-          <div className='h-auto w-1/4 flex flex-col justify-center items-center border rounded overflow-hidden cursor-pointer bg-gray-300 text-black md:me-6 p-8'>
+          <div className='h-auto mt-4 md:mt-0 w-full md:w-1/4 flex flex-col justify-center items-center border rounded overflow-hidden cursor-pointer bg-gray-300 text-black md:me-6 p-8'>
               <Link href={'https://tram.global/'} target="_blank"><h1 className='text-2xl underline'>Zipcar</h1></Link>
               <h1>Backend Software Engineer Co-op</h1>
               <hr></hr>
@@ -70,14 +70,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="skills" className='py-8 w-full text-center mt-12 px-6 lg:px-32 bg-gradient-to-b from-gray-950 to-black'>
+      <section id="skills" className='py-8 w-full text-center mt-12 lg:px-32 bg-gradient-to-b from-gray-950 to-black'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-12'>Skills</h1>
         <div className='w-full px-8'>
           <ul className='flex flex-wrap justify-center items-center text-xl lg:text-2xl overflow-hidden'>
             {
               skills.map((skill, index) => (
-                <li key={index} className='w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8'>
-                  <Card imageUrl={skill.imageUrl} title={skill.title} description={skill.description} />
+                <li key={index} className='w-full lg:w-1/3 xl:w-1/4 px-4 mb-8'>
+                  <Card icon={skill.icon} title={skill.title} description={skill.description}  proficiency={skill.proficiency}/>
                 </li>
               ))
             }
@@ -121,7 +121,9 @@ export default function Home() {
             <Link  className="px-4 text-2xl" href={"https://github.com/Zhengda-Huang?tab=repositories"} target="_blank">
               <i className="fab fa-github mr-2"></i>
             </Link>
-
+            <a href="mailto:huangzhengda1314@gmail.com" className="text-2xl px-4">
+              <i className="fas fa-envelope mr-2"></i>
+            </a>
             <Link className='px-4 text-2xl' href={"https://www.linkedin.com/in/zhengda-huang/"} target="_blank">
               <i className="fab fa-linkedin-in mr-2"></i>
             </Link>

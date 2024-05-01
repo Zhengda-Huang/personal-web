@@ -22,17 +22,32 @@ const Page = () => {
           <Image
             src={image.img}
             alt="Image"
-            layout="intrinsic"
             width={400}
             height={300}
             className="hover:scale-110 transition ease-in-out delay-150"
           />
         </div>
       ))}
+
       {selectedImage && (
-        <div className="modal">
-            <Image src={selectedImage} alt="Selected Image" className="modal-image"   width={400}
-            height={300}/>
+        <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center z-50">
+          <div className="bg-white p-8 rounded shadow-lg">
+            <Image
+              src={selectedImage}
+              alt="Selected Image"
+              className="modal-image"
+              width={400}
+              height={300}
+            />
+            <div className="flex justify-end">
+              <button
+                className="px-4 py-2 bg-black text-white rounded hover:bg-white hover:text-black hover:border hover:border-black md:text-sm text-base"
+                onClick={handleCloseModal}
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
