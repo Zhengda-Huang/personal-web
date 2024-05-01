@@ -29,7 +29,7 @@ export default function Home() {
         height={200}
         alt="instagram logo"
       />
-        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen px-2 md:px-0' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-150%)' }}>
+        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen px-2 md:px-0' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-100%)' }}>
           <h1 className='text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>Hi, &apos;I&apos;m Zhengda&quot;David&quot; Huang</h1>
           <hr className="mx-auto my-4 border-gray-300"/>
           <h1 className='text-md md:text-xl lg:text-2xl xl:text-3xl pb-8'>Senior At Northeastern University Pursing A Career as Fullstack Developer</h1>
@@ -84,10 +84,10 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      <section id="projects" className='py-8 w-full text-center px-6 lg:px-32'>
+      <section id="projects" className='py-8 w-full text-center px-2 lg:px-32'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>Projects</h1>
         <h3 className=' pb-12'>Check out some of my personal projects</h3>
-        <div ref={ref1} className={`w-full h-full px-8 transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref1} className={`w-full h-full transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
           <ul className='flex flex-wrap justify-center items-center text-xl lg:text-2xl overflow-hidden'>
             {
               projects.map((project, index) => (

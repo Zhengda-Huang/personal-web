@@ -39,8 +39,8 @@ const ProjectCard = ({ imageUrl, title, description, projectLink, github}: Proje
       </div>
 
       {showModal && (
-        <div className="flex text-black fixed top-0 left-0 h-full justify-center items-center bg-gray-500 bg-opacity-50 z-50">
-          <div className="w-1/2 bg-white p-8 rounded shadow-lg">
+        <div className="flex text-black fixed top-0 left-0 h-full justify-center items-center px-4 bg-gray-500 bg-opacity-50 z-50">
+          <div className="w-full md:w-1/2 bg-white p-8 rounded shadow-lg ">
             <h2 className="md:text-base text-xl mb-4 font-bold">{title}</h2>
             <p className="md:text-sm text-base mb-4">{description}</p>
             <button className="px-4 py-2 bg-black text-white rounded hover:bg-white hover:text-black hover:border hover:border-black md:text-sm text-base" onClick={handleModalClose}>Close</button>
