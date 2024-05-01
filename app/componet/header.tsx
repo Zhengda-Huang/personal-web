@@ -22,7 +22,7 @@ const Header = () => {
     }
   };
   
-  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "#contact", name: "Contact" }, { href: "/gallery", name: "Pictures" }]
+  const links = [ { href: "#home", name: "About Me"},{ href: "#skills", name: "Skills" }, { href: "#projects", name: "Projects" }, { href: "#contact", name: "Contact" }, { href: "/gallery", name: "Gallery" }]
   return (
 
     <header className="w-full py-12 px-6 md:px-24 flex flex-row h-30 items-center justify-between">

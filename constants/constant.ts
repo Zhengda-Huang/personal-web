@@ -122,8 +122,26 @@ export const skills = [
       { img: '/gallery/pic33.jpg' },
       { img: '/gallery/pic34.jpg' },
       { img: '/gallery/pic35.jpg' },
-      { img: '/gallery/pic36.jpg' }
+      { img: '/gallery/pic36.jpg' },
+      { img: '/gallery/pic37.JPG' },
+      { img: '/gallery/pic38.JPG' },
+      { img: '/gallery/pic39.JPG' },
+      { img: '/gallery/pic40.JPG' },
+      { img: '/gallery/pic41.JPG' },
+      { img: '/gallery/pic42.JPG' },
+      { img: '/gallery/pic43.JPG' },
+      { img: '/gallery/pic44.JPG' },
+      { img: '/gallery/pic45.JPG' },
+      { img: '/gallery/pic46.JPG' },
+      { img: '/gallery/pic47.JPG' },
+      { img: '/gallery/pic48.JPG' },
+      { img: '/gallery/pic49.JPG' },
+      { img: '/gallery/pic50.JPG' },
+      { img: '/gallery/pic51.JPG' },
+      { img: '/gallery/pic52.JPG' },
+      { img: '/gallery/pic53.JPG' }
     ];
+    
     
     
     
