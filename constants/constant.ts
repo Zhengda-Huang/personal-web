@@ -85,4 +85,46 @@ export const skills = [
         data: "646-920-9986"
       },
     ]
+
+    export const gallery = [
+      { img: '/gallery/pic1.jpg' },
+      { img: '/gallery/pic2.jpg' },
+      { img: '/gallery/pic3.jpg' },
+      { img: '/gallery/pic4.jpg' },
+      { img: '/gallery/pic5.jpg' },
+      { img: '/gallery/pic6.jpg' },
+      { img: '/gallery/pic7.jpg' },
+      { img: '/gallery/pic8.jpg' },
+      { img: '/gallery/pic9.jpg' },
+      { img: '/gallery/pic10.jpg' },
+      { img: '/gallery/pic11.jpg' },
+      { img: '/gallery/pic12.jpg' },
+      { img: '/gallery/pic13.jpg' },
+      { img: '/gallery/pic14.jpg' },
+      { img: '/gallery/pic15.jpg' },
+      { img: '/gallery/pic16.jpg' },
+      { img: '/gallery/pic17.jpg' },
+      { img: '/gallery/pic18.jpg' },
+      { img: '/gallery/pic19.jpg' },
+      { img: '/gallery/pic20.jpg' },
+      { img: '/gallery/pic21.jpg' },
+      { img: '/gallery/pic22.jpg' },
+      { img: '/gallery/pic23.jpg' },
+      { img: '/gallery/pic24.jpg' },
+      { img: '/gallery/pic25.jpg' },
+      { img: '/gallery/pic26.jpg' },
+      { img: '/gallery/pic27.jpg' },
+      { img: '/gallery/pic28.jpg' },
+      { img: '/gallery/pic29.jpg' },
+      { img: '/gallery/pic30.jpg' },
+      { img: '/gallery/pic31.jpg' },
+      { img: '/gallery/pic32.jpg' },
+      { img: '/gallery/pic33.jpg' },
+      { img: '/gallery/pic34.jpg' },
+      { img: '/gallery/pic35.jpg' },
+      { img: '/gallery/pic36.jpg' }
+    ];
+    
+    
+    
   

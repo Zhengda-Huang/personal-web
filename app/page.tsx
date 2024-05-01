@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-      <section className='flex flex-col justify-center items-center h-screen py-8'>
+      <section className='w-full flex flex-col justify-center items-center h-screen py-8 bg-gradient-to-b from-black to-gray-900'>
       <Image
         className="jumping-image"
         src="/pic.png"
@@ -29,7 +29,7 @@ export default function Home() {
         height={200}
         alt="instagram logo"
       />
-        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen' style={{ transition: 'transform 0.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-100%)' }}>
+        <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-150%)' }}>
           <h1 className='text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>Hi, &apos;I&apos;m Zhengda&quot;David&quot; Huang</h1>
           <hr className="mx-auto my-4 border-gray-300"/>
           <h1 className='text-md md:text-xl lg:text-2xl xl:text-3xl pb-8'>Senior At Northeastern University Pursing A Career as Fullstack Developer</h1>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="skills" className='py-8 w-full text-center mt-12 px-6 lg:px-32'>
+      <section id="skills" className='py-8 w-full text-center mt-12 px-6 lg:px-32 bg-gradient-to-b from-gray-950 to-black'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-12'>Skills</h1>
         <div className='w-full px-8'>
           <ul className='flex flex-wrap justify-center items-center text-xl lg:text-2xl overflow-hidden'>
