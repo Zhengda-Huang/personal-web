@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import { Header } from "./componet";
-import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
+
 const raleway = Raleway({ subsets: ["latin"] }); 
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body className={raleway.className}> 
         <Header />
+        <Analytics />
         {children}
       </body>
     </html>
