@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-      <section className='w-full flex flex-col justify-center items-center h-screen py-8 bg-gradient-to-b from-black to-gray-900'>
+      <section className='hero-section'>
       <Image
         className="jumping-image"
         src="/pic.png"
@@ -30,7 +30,7 @@ export default function Home() {
         alt="instagram logo"
       />
         <div ref={ref2} className='text-center w-full md:w-1/2 pt-12 h-screen px-2 md:px-0' style={{ transition: 'transform 1.5s ease', transform: isVisible2 ? 'translateX(0)' : 'translateX(-100%)' }}>
-          <h1 className='text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>Hi, &apos;I&apos;m Zhengda&quot;David&quot; Huang</h1>
+          <h1 className='text-2xl md:text-2xl lg:text-3xl xl:text-4xl'>Hi, I&apos;m Zhengda &quot;David&quot; Huang</h1>
           <hr className="mx-auto my-4 border-gray-300"/>
           <h1 className='text-md md:text-xl lg:text-2xl xl:text-3xl pb-8'>Senior At Northeastern University Pursing A Career as Fullstack Developer</h1>
           <h1 className='text-md md:text-md lg:text-lg xl:text-xl'>More in backend development, that&apos;s why this frontend design isn&apos;t as good!</h1>
